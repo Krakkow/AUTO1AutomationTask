@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.main.automationtask.Main">
+        <methods>
+          <include name="gettingAllCarsInfo"/>
+          <include name="waitForFirefox"/>
+          <include name="getToPageAndFilter"/>
+          <include name="verifyFilter"/>
+          <include name="afterClass"/>
+          <include name="findAmountOfCarsInPage"/>
+        </methods>
+      </class> <!-- com.main.automationtask.Main -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
